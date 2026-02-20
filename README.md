@@ -3,4 +3,5 @@ Internship project analyzing Emmason’s social media and transactional data to 
 
 ## Project Files
 Access the complete project files and resources on Google Drive:
+<!-- TODO: Replace YOUR_GOOGLE_DRIVE_LINK_HERE with your actual Google Drive link -->
 [View Project Files on Google Drive](YOUR_GOOGLE_DRIVE_LINK_HERE)
