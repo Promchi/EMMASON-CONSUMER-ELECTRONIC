@@ -3,21 +3,21 @@
 ## Project Overview
 Emmason Consumer Electronics needed a systematic way to monitor brand reputation, understand customer behaviour, and track revenue performance. This project builds a full analytical framework using social media intelligence and transactional data — translating 73,587 rows of raw data into structured business insights and an executive-ready Power BI dashboard.
 
----
+📁 **Full project files** (Power BI .pbix, PDF report, PowerPoint presentation):
+[Google Drive Folder →](https://drive.google.com/drive/folders/1kJ4gbhDWuFMkgtPlU_qtr4_lL0PCIiAr)
 
-## Business Questions Answered
+Business Questions Answered
 - How is the brand perceived across social media platforms?
 - Which platforms drive the most engagement — and where is sentiment most negative?
 - How quickly does the business respond to crisis events, and are they being resolved?
 - What are the revenue trends, and what is driving year-over-year change?
 - Which customer segments and products are most valuable?
 - How do product recalls impact revenue?
-
 ---
 
-## Key Findings
+Key Findings
 
-### 💰 Revenue & Transactions
+💰 Revenue & Transactions
 - **Total revenue for the period: $57.53 million** across 73,590 transactions and 4 products sold in 49 US regions
 - **50.23% of total revenue ($28.9M) was lost due to product recalls** — the single largest business risk identified
 - Laptops and Smartphones were the top revenue-generating products at **42.72% and 24.87%** of total revenue respectively
@@ -27,7 +27,7 @@ Emmason Consumer Electronics needed a systematic way to monitor brand reputation
 [Transaction Dashboard](assets/Transaction-Dashboard.PNG)
   
 
-### 👥 Customer Segmentation
+👥 Customer Segmentation
 - The **56–69 age group drives the highest revenue** and accounts for 27.5% of total customers, reflecting a positive age-value correlation
 - Age groups 36–55 drove strong revenue but also had **higher product recall rates**, generating disproportionate losses
 - VIP and Returning Customers (33.5% and 31% of base) convert better than New Customers (35.5%), despite New Customers having the highest engagement
@@ -47,12 +47,12 @@ Emmason Consumer Electronics needed a systematic way to monitor brand reputation
 
 ---
 
-## A Key Analytical Insight
-> A headline YoY revenue increase appeared to show strong business growth — but deeper SQL investigation revealed the 2022 baseline only covered partial months, making the growth rate misleading. This was flagged and corrected before reaching the executive report, demonstrating the importance of contextual data validation.
+A Key Analytical Insight
+A headline YoY revenue increase appeared to show strong business growth — but deeper SQL investigation revealed the 2022 baseline only covered only 2 months, making the growth rate misleading. This was flagged and corrected before reaching the executive report, demonstrating the importance of contextual data validation.
 
 ---
 
-## Tools & Technologies
+Tools & Technologies
 | Tool | Purpose |
 |------|---------|
 | PostgreSQL | Data normalisation, EDA, SQL querying |
@@ -62,7 +62,7 @@ Emmason Consumer Electronics needed a systematic way to monitor brand reputation
 
 ---
 
-## Data & Structure
+Data & Structure
 - **Dataset:** 73,587 rows, 20 columns (loaded as CSV into PostgreSQL)
 - **Normalised into 3 tables:** `CustomerData`, `TransactionTable`, `SocialMediaData`
 - Foreign key relationships enforced before loading into Power BI
@@ -71,7 +71,7 @@ Emmason Consumer Electronics needed a systematic way to monitor brand reputation
 
 ---
 
-## Repository Structure
+Repository Structure
 ```
 EMMASON-CONSUMER-ELECTRONIC/
 │
@@ -82,12 +82,7 @@ EMMASON-CONSUMER-ELECTRONIC/
     └── dashboard_screenshot.png        ← Power BI dashboard preview
 ```
 
-📁 **Full project files** (Power BI .pbix, PDF report, PowerPoint presentation):
-[Google Drive Folder →](https://drive.google.com/drive/folders/1kJ4gbhDWuFMkgtPlU_qtr4_lL0PCIiAr)
-
----
-
-## Deliverables
+Deliverables
 - ✅ Interactive Power BI dashboard for executive reporting
 - ✅ Normalised PostgreSQL database with full EDA scripts
 - ✅ Executive PowerPoint presentation
