@@ -32,7 +32,7 @@ Key Findings
 - Age groups 36–55 drove strong revenue but also had **higher product recall rates**, generating disproportionate losses
 - VIP and Returning Customers (33.5% and 31% of base) convert better than New Customers (35.5%), despite New Customers having the highest engagement
 
-[Customer Dashboard](assets/Customer-Dashboard.PNG)
+![Customer Dashboard](assets/Customer-Dashboard.PNG)
 
 ### 📱 Social Media & Brand Reputation
 - **13,380+ crisis events** reported across all platforms with a crisis resolution rate of only **47.59%** — over half of reported crises went unresolved
@@ -43,7 +43,7 @@ Key Findings
 - Sentiment breakdown: Positive 40.01%, Neutral 40.08%, Negative 19.91% — the high neutral rate signals customer indifference rather than loyalty
 - Peak engagement months: **December, March, May, July, and October** — indicating clear seasonality
 
-  [Social Media Dashboard](assets/Social-Media-Dashboard.PNG)
+  ![Social Media Dashboard](assets/Social-Media-Dashboard.PNG)
 
 ---
 
